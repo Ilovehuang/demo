@@ -13,5 +13,10 @@ git reflag 可以查看提交的版本库
 
 
 git的工作区和暂存区
-git add把修改的内容都放到暂存区，如果先不git add到暂存区，就不会添加到commit中去了
+管理修改:git add把修改的内容都放到暂存区，如果先不git add到暂存区，就不会添加到commit中去了
+撤销修改:git checkout -- filename 回到最近一次git commit 或者 git add时的状态
+        git reset HEAD <file> 把暂存区的修改撤回，回到工作区 git reset既可以回退版本，也可以把暂存区的修改回退到工作区，当我们是用HEAD时,表示最新版本
+        然后在丢弃工作区的修改 git checkout -- filename
+
+
 
