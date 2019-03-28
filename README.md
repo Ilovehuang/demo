@@ -18,5 +18,16 @@ git的工作区和暂存区
         git reset HEAD <file> 把暂存区的修改撤回，回到工作区 git reset既可以回退版本，也可以把暂存区的修改回退到工作区，当我们是用HEAD时,表示最新版本
         然后在丢弃工作区的修改 git checkout -- filename
 
+git的删除数据
+想要删除文件的情况
+添加一个文件,git add filename ,git commit -m "add filename",提交到了版本库
+            rm re.txt删除了文件。工作区和版本库不一致了
+            git rm re.txt从版本库删除文件,并且提交git commit
+
+git的分之管理
+创建分支 git checkout -b dev 创建并且切换到分支
+查看当前分支 git branch
+
+
 
 
