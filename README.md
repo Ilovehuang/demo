@@ -26,14 +26,7 @@ git的删除数据
 
 git的分之管理
 创建分支 git checkout -b dev 创建并且切换到分支
-<<<<<<< HEAD
 查看当前分支 git branch;
-=======
-查看当前分支 git branch
-切换分支 git checkout dev/master
-合并分支 git merge dev   git merge合并指定分支到当前分支
-删除分支 git branch - d <name>
->>>>>>> feature1
 
 
 
