@@ -53,3 +53,21 @@ git 多人协作
 
 从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
 
+
+rebase
+把别人提交和自己提交分支变成一条线  git rebase
+
+标签管理
+命令git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+命令git tag可以查看所有标签。
+
+操作标签
+命令git push origin <tagname>可以推送一个本地标签；
+
+命令git push origin --tags可以推送全部未推送过的本地标签；
+
+命令git tag -d <tagname>可以删除一个本地标签；
+
+命令git push origin :refs/tags/<tagname>可以删除一个远程标签。
+
