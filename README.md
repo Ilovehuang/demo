@@ -27,7 +27,16 @@ git的删除数据
 git的分之管理
 创建分支 git checkout -b dev 创建并且切换到分支
 查看当前分支 git branch;
+查看分支和病情可 git log --graph --pretty=oneline --abbrev-commit
 
 
+git Bug分支
+git stash   --- 把工作现场存储在某一个地方
+git stash pop -- 把工作的内容恢复也把stash的内容给删了
 
+
+git Feature分支
+
+开发一个新feature，最好新建一个分支
+如果要丢弃一个没有被合并过的分支，可以通过git branch -D <name>强行删除。
 
